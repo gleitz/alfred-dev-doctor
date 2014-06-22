@@ -6,14 +6,11 @@ echo $str;
 
 //exit;
 //$type = "html";
-$type = "underscore";
+$type = "scala";
 //$query = "wbr";
-$query = "some";
+$query = "list";
 
 require_once('search.php');
-
-
-
 
 
 $parser->update();

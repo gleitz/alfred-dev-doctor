@@ -162,6 +162,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>6A41D165-ACE4-46F7-A10A-ACB28D588782</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
 		<array>
 			<dict>
@@ -448,6 +459,8 @@ end alfred_script</string>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
 			<string>49CEBF49-5045-4AD6-91E0-18BCDB66E15B</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -478,6 +491,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>9A65D19A-199C-41BC-8CE0-9C7F2B9ECCA3</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -495,6 +510,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>743E9AC7-F549-4B6F-B54A-066F75C915B6</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -525,6 +542,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -556,6 +575,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>A0169C24-0256-4ADA-9A7B-EE67B9B58B87</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -586,6 +607,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>356AED01-E011-456B-9231-7D0A73C28D9D</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -607,6 +630,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>208EE3C1-E184-4097-9792-FF809D44F480</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -637,6 +662,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>626F3862-481A-489E-BBF3-B70FBE498D29</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -667,6 +694,40 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>FAC95FEC-32B0-4455-9D61-4EB52880A4CD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>scala</string>
+				<key>runningsubtext</key>
+				<string>Waiting for data through the intertubes</string>
+				<key>script</key>
+				<string>$query = "{query}";
+$type = "scala";
+
+require_once('search.php');</string>
+				<key>subtext</key>
+				<string>With autosuggest</string>
+				<key>title</key>
+				<string>Search Scala Docs</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6A41D165-ACE4-46F7-A10A-ACB28D588782</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -697,6 +758,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>274DCAB1-B2B5-4CAC-A685-A12696AA1B6C</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -728,6 +791,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>BAD284E1-C73B-4D99-AEBA-4B01A4024F66</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -758,6 +823,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>D3971ECE-8137-4855-BEC7-23FF82516DF3</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -788,6 +855,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>D757A534-E31C-4D19-8168-411768ED40D8</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -818,6 +887,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>ED2574D4-3617-4F78-BEAB-294390C479E2</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -849,6 +920,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>1535D1AE-2B82-4EB9-B4D1-B16CCACD15DB</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -879,6 +952,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>F18E3625-DBFE-4291-9A2A-A072AF57AAF4</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -909,6 +984,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>C7F283D6-7AF4-447C-B3AE-8A2414806372</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -939,6 +1016,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>97142E52-BD57-4006-B181-9B9C02808D6D</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -954,6 +1033,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.output.script</string>
 			<key>uid</key>
 			<string>EB2D357B-7C1C-4E1F-8104-19DFBD913547</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -969,6 +1050,8 @@ end alfred_script</string>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
 			<string>ECFF7111-C050-4D7C-B35F-95F1E927139C</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -997,6 +1080,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>F616C229-EB73-46F3-AE5B-BD07D2024DCB</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1015,6 +1100,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>E429FA03-AAE3-4888-8BB1-A9346B5CDACB</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1038,6 +1125,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>C0A119F6-86AC-45F2-8AC4-DA7EF955A8A3</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1066,6 +1155,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>395489AC-F97D-4427-9E55-36B92E3044B7</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1089,6 +1180,8 @@ require_once('search.php');</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>C12469E1-2C1C-45F3-9B73-F1B5059304B1</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1120,6 +1213,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>C4CD1D89-F028-43EA-9ECD-FB0BB81EB498</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1133,6 +1228,8 @@ require_once('search.php');
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>BEA73019-1705-4534-8CAF-78020F39EEC6</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1152,6 +1249,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>A2339DAE-1240-42BE-A97B-B3C914E30642</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1165,6 +1264,8 @@ require_once('search.php');
 			<string>alfred.workflow.output.script</string>
 			<key>uid</key>
 			<string>EBB7A386-7C53-44D4-AF02-8339BA2FADF5</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1182,6 +1283,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>849F6250-4AFA-470A-BDFC-6255873093A9</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1195,6 +1298,8 @@ require_once('search.php');
 			<string>alfred.workflow.output.script</string>
 			<key>uid</key>
 			<string>0E112A16-2E92-43A7-8833-13CC9AFA5C3E</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1210,6 +1315,8 @@ require_once('search.php');
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>75ECAA6E-EBBD-4801-B59A-31BBE8921BF2</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1225,6 +1332,8 @@ require_once('search.php');
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>31B19EDA-E80C-4B5B-B5F3-AE92CA2232A4</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1242,6 +1351,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>4FBECBDE-DE6F-4731-B746-A62CB4C85937</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1259,6 +1370,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1CDD4D10-6313-4AE6-81C5-1B3360F08A68</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1274,6 +1387,8 @@ require_once('search.php');
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>07EB9C43-E054-4292-A39E-CAA0EFDCD3AA</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1291,6 +1406,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>5BD9D32D-393F-4D72-B2C4-944AA6DB3B9A</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1306,6 +1423,8 @@ require_once('search.php');
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>0B4D6B42-356B-491B-AD57-24483A53ECD9</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1323,6 +1442,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>9A1606F4-8C47-4F48-826B-A808F2FD0904</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1338,6 +1459,8 @@ require_once('search.php');
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>DBD56279-86B0-4BF3-B8D2-EFFE4088AFD0</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1355,6 +1478,8 @@ require_once('search.php');
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>4055420A-9659-4812-A5DC-DDB93B4C2320</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1397,6 +1522,8 @@ end tell</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>EFE05B82-2485-42D3-BBDB-C60D087D49DA</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1414,6 +1541,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>6B14FAC7-A04A-4A6B-B444-C8482B3C6E8F</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1429,6 +1558,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>5E2CFF02-1544-4B94-AB1A-2DD8F7AC0BEE</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1444,6 +1575,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>62BDC9F0-3E2D-440B-8032-FD58C4825F65</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1461,6 +1594,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>8B237BA2-9686-46CC-A9E1-D8EE94F8D0EA</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1476,6 +1611,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>22C5FA7A-69D5-4418-A61F-3DF5BA9EB41E</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1493,6 +1630,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1830A68B-330A-478D-868E-0462847AA71E</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1508,6 +1647,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>FDB3891B-F316-4A13-B806-83132723A33A</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1525,6 +1666,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>3D75A4D3-F3C8-4403-B47B-35DD3CD40073</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1542,6 +1685,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>7ACE717F-19A5-4B65-A37B-6D5B9B8FD1A6</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1557,6 +1702,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>A6C29D91-5BAC-4B18-A4DF-5E17E04EEB55</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1576,6 +1723,8 @@ end tell</string>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>C7B88296-D588-4559-8661-544F0B0FFED4</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1591,6 +1740,8 @@ end tell</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>276477B2-9513-4A4A-B76A-5F444DF8C59C</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1610,6 +1761,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>25DB03E6-ECFB-4F0D-ADAE-02BADB186113</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1625,6 +1778,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>592859BB-4688-46D9-A27F-F33D80A7ECF7</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1644,6 +1799,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>1DEE9EF3-909D-4C3C-9414-29D75F87EFD5</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1659,6 +1816,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>39205812-4FA4-44B6-95B7-0A999350D053</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1674,6 +1833,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>BCEC2501-AAB5-4677-B807-2D5E01399A2B</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1693,6 +1854,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>28602741-90DE-478E-A8AD-AF15201891D9</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1708,6 +1871,8 @@ end tell</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>8819557A-EEFB-4745-B29E-AE0F233B29CD</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1727,6 +1892,8 @@ end tell</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>BA9343D1-C789-4A16-A361-90A3DEAAF2BE</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -1874,6 +2041,11 @@ end tell</string>
 		<dict>
 			<key>ypos</key>
 			<real>80</real>
+		</dict>
+		<key>6A41D165-ACE4-46F7-A10A-ACB28D588782</key>
+		<dict>
+			<key>ypos</key>
+			<real>400</real>
 		</dict>
 		<key>6A9D8DE3-A5C8-4243-8D60-85591A2FA478</key>
 		<dict>
